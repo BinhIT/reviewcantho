@@ -1,0 +1,285 @@
+2022-03-31T19:27:17+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 C:\xampp\htdocs\reviewcantho\wp-includes\class-wp-hook.php(307): UxBuilder\Ajax\PostSaver->save('')
+#7 C:\xampp\htdocs\reviewcantho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\reviewcantho\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\reviewcantho\wp-admin\admin-ajax.php(187): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2022-03-31T19:27:25+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 C:\xampp\htdocs\reviewcantho\wp-includes\class-wp-hook.php(307): UxBuilder\Ajax\PostSaver->save('')
+#7 C:\xampp\htdocs\reviewcantho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\reviewcantho\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\reviewcantho\wp-admin\admin-ajax.php(187): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2022-03-31T19:27:29+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 C:\xampp\htdocs\reviewcantho\wp-includes\class-wp-hook.php(307): UxBuilder\Ajax\PostSaver->save('')
+#7 C:\xampp\htdocs\reviewcantho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\reviewcantho\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\reviewcantho\wp-admin\admin-ajax.php(187): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2022-03-31T19:27:30+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 C:\xampp\htdocs\reviewcantho\wp-includes\class-wp-hook.php(307): UxBuilder\Ajax\PostSaver->save('')
+#7 C:\xampp\htdocs\reviewcantho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\reviewcantho\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\reviewcantho\wp-admin\admin-ajax.php(187): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2022-03-31T19:27:54+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 C:\xampp\htdocs\reviewcantho\wp-includes\class-wp-hook.php(307): UxBuilder\Ajax\PostSaver->save('')
+#7 C:\xampp\htdocs\reviewcantho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\reviewcantho\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\reviewcantho\wp-admin\admin-ajax.php(187): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2022-03-31T19:27:55+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 C:\xampp\htdocs\reviewcantho\wp-includes\class-wp-hook.php(307): UxBuilder\Ajax\PostSaver->save('')
+#7 C:\xampp\htdocs\reviewcantho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\reviewcantho\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\reviewcantho\wp-admin\admin-ajax.php(187): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2022-03-31T19:27:56+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 C:\xampp\htdocs\reviewcantho\wp-includes\class-wp-hook.php(307): UxBuilder\Ajax\PostSaver->save('')
+#7 C:\xampp\htdocs\reviewcantho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\reviewcantho\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\reviewcantho\wp-admin\admin-ajax.php(187): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2022-03-31T19:33:29+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 C:\xampp\htdocs\reviewcantho\wp-includes\class-wp-hook.php(307): UxBuilder\Ajax\PostSaver->save('')
+#7 C:\xampp\htdocs\reviewcantho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\reviewcantho\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\reviewcantho\wp-admin\admin-ajax.php(187): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2022-03-31T19:33:37+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 C:\xampp\htdocs\reviewcantho\wp-includes\class-wp-hook.php(307): UxBuilder\Ajax\PostSaver->save('')
+#7 C:\xampp\htdocs\reviewcantho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\reviewcantho\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\reviewcantho\wp-admin\admin-ajax.php(187): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2022-03-31T19:35:10+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 C:\xampp\htdocs\reviewcantho\wp-includes\class-wp-hook.php(307): UxBuilder\Ajax\PostSaver->save('')
+#7 C:\xampp\htdocs\reviewcantho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\reviewcantho\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\reviewcantho\wp-admin\admin-ajax.php(187): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2022-03-31T19:40:43+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 C:\xampp\htdocs\reviewcantho\wp-includes\class-wp-hook.php(307): UxBuilder\Ajax\PostSaver->save('')
+#7 C:\xampp\htdocs\reviewcantho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\reviewcantho\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\reviewcantho\wp-admin\admin-ajax.php(187): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2022-03-31T19:41:56+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 C:\xampp\htdocs\reviewcantho\wp-includes\class-wp-hook.php(307): UxBuilder\Ajax\PostSaver->save('')
+#7 C:\xampp\htdocs\reviewcantho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\reviewcantho\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\reviewcantho\wp-admin\admin-ajax.php(187): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2022-03-31T19:41:57+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 C:\xampp\htdocs\reviewcantho\wp-includes\class-wp-hook.php(307): UxBuilder\Ajax\PostSaver->save('')
+#7 C:\xampp\htdocs\reviewcantho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\reviewcantho\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\reviewcantho\wp-admin\admin-ajax.php(187): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2022-03-31T19:41:58+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 C:\xampp\htdocs\reviewcantho\wp-includes\class-wp-hook.php(307): UxBuilder\Ajax\PostSaver->save('')
+#7 C:\xampp\htdocs\reviewcantho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\reviewcantho\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\reviewcantho\wp-admin\admin-ajax.php(187): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2022-03-31T19:41:59+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 C:\xampp\htdocs\reviewcantho\wp-includes\class-wp-hook.php(307): UxBuilder\Ajax\PostSaver->save('')
+#7 C:\xampp\htdocs\reviewcantho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\reviewcantho\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\reviewcantho\wp-admin\admin-ajax.php(187): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2022-03-31T19:42:42+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 C:\xampp\htdocs\reviewcantho\wp-includes\class-wp-hook.php(307): UxBuilder\Ajax\PostSaver->save('')
+#7 C:\xampp\htdocs\reviewcantho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\reviewcantho\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\reviewcantho\wp-admin\admin-ajax.php(187): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2022-03-31T19:48:43+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 C:\xampp\htdocs\reviewcantho\wp-includes\class-wp-hook.php(307): UxBuilder\Ajax\PostSaver->save('')
+#7 C:\xampp\htdocs\reviewcantho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\reviewcantho\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\reviewcantho\wp-admin\admin-ajax.php(187): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2022-03-31T19:54:08+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 C:\xampp\htdocs\reviewcantho\wp-includes\class-wp-hook.php(307): UxBuilder\Ajax\PostSaver->save('')
+#7 C:\xampp\htdocs\reviewcantho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\reviewcantho\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\reviewcantho\wp-admin\admin-ajax.php(187): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2022-03-31T19:55:27+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 C:\xampp\htdocs\reviewcantho\wp-includes\class-wp-hook.php(307): UxBuilder\Ajax\PostSaver->save('')
+#7 C:\xampp\htdocs\reviewcantho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\reviewcantho\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\reviewcantho\wp-admin\admin-ajax.php(187): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in C:\xampp\htdocs\reviewcantho\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+

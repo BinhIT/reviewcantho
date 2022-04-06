@@ -1,0 +1,556 @@
+2022-03-19T17:21:55+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): UxBuilder\Transformers\ArrayToString->transform(Array)
+#4 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(307): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#5 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\giadung\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\giadung\wp-includes\template-loader.php(13): do_action('template_redire...')
+#8 C:\xampp\htdocs\giadung\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\giadung\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2022-03-19T17:21:55+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): UxBuilder\Transformers\ArrayToString->transform(Array)
+#4 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(307): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#5 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\giadung\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\giadung\wp-includes\template-loader.php(13): do_action('template_redire...')
+#8 C:\xampp\htdocs\giadung\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\giadung\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2022-03-19T17:21:55+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): UxBuilder\Transformers\ArrayToString->transform(Array)
+#4 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(307): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#5 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\giadung\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\giadung\wp-includes\template-loader.php(13): do_action('template_redire...')
+#8 C:\xampp\htdocs\giadung\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\giadung\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2022-03-19T17:21:56+00:00 CRITICAL Possible integer overflow in memory allocation (2 * 9377 + 32) in C:\xampp\htdocs\giadung\wp-includes\shortcodes.php on line 228
+
+2022-03-19T17:22:21+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#8 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(307): UxBuilder\Ajax\PostSaver->save('')
+#9 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#10 C:\xampp\htdocs\giadung\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#11 C:\xampp\htdocs\giadung\wp-admin\admin-ajax.php(187): do_action('wp_ajax_ux_buil...')
+#12 {main}
+  thrown in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2022-03-19T17:22:42+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): UxBuilder\Transformers\ArrayToString->transform(Array)
+#4 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(307): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#5 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\giadung\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\giadung\wp-includes\template-loader.php(13): do_action('template_redire...')
+#8 C:\xampp\htdocs\giadung\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\giadung\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2022-03-19T17:22:42+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): UxBuilder\Transformers\ArrayToString->transform(Array)
+#4 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(307): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#5 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\giadung\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\giadung\wp-includes\template-loader.php(13): do_action('template_redire...')
+#8 C:\xampp\htdocs\giadung\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\giadung\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2022-03-19T17:22:42+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): UxBuilder\Transformers\ArrayToString->transform(Array)
+#4 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(307): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#5 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\giadung\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\giadung\wp-includes\template-loader.php(13): do_action('template_redire...')
+#8 C:\xampp\htdocs\giadung\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\giadung\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2022-03-19T17:22:43+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#8 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#9 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#10 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(307): UxBuilder\Ajax\PostSaver->save('')
+#11 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#12 C:\xampp\htdocs\giadung\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\giadung\wp-admin\admin-ajax.php(187): do_action('wp_ajax_ux_buil...')
+#14 {main}
+  thrown in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2022-03-19T17:22:46+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#8 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#9 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#10 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(307): UxBuilder\Ajax\PostSaver->save('')
+#11 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#12 C:\xampp\htdocs\giadung\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\giadung\wp-admin\admin-ajax.php(187): do_action('wp_ajax_ux_buil...')
+#14 {main}
+  thrown in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2022-03-19T17:22:49+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#8 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#9 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#10 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(307): UxBuilder\Ajax\PostSaver->save('')
+#11 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#12 C:\xampp\htdocs\giadung\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\giadung\wp-admin\admin-ajax.php(187): do_action('wp_ajax_ux_buil...')
+#14 {main}
+  thrown in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2022-03-19T17:22:50+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#8 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#9 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#10 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(307): UxBuilder\Ajax\PostSaver->save('')
+#11 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#12 C:\xampp\htdocs\giadung\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\giadung\wp-admin\admin-ajax.php(187): do_action('wp_ajax_ux_buil...')
+#14 {main}
+  thrown in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2022-03-19T17:22:51+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#8 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#9 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#10 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(307): UxBuilder\Ajax\PostSaver->save('')
+#11 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#12 C:\xampp\htdocs\giadung\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\giadung\wp-admin\admin-ajax.php(187): do_action('wp_ajax_ux_buil...')
+#14 {main}
+  thrown in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2022-03-19T17:22:52+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#8 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#9 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#10 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(307): UxBuilder\Ajax\PostSaver->save('')
+#11 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#12 C:\xampp\htdocs\giadung\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\giadung\wp-admin\admin-ajax.php(187): do_action('wp_ajax_ux_buil...')
+#14 {main}
+  thrown in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2022-03-19T17:22:53+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#8 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#9 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#10 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(307): UxBuilder\Ajax\PostSaver->save('')
+#11 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#12 C:\xampp\htdocs\giadung\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\giadung\wp-admin\admin-ajax.php(187): do_action('wp_ajax_ux_buil...')
+#14 {main}
+  thrown in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2022-03-19T17:22:54+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#8 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#9 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#10 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(307): UxBuilder\Ajax\PostSaver->save('')
+#11 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#12 C:\xampp\htdocs\giadung\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\giadung\wp-admin\admin-ajax.php(187): do_action('wp_ajax_ux_buil...')
+#14 {main}
+  thrown in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2022-03-19T17:22:55+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#8 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#9 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#10 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(307): UxBuilder\Ajax\PostSaver->save('')
+#11 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#12 C:\xampp\htdocs\giadung\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\giadung\wp-admin\admin-ajax.php(187): do_action('wp_ajax_ux_buil...')
+#14 {main}
+  thrown in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2022-03-19T19:27:42+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): UxBuilder\Transformers\ArrayToString->transform(Array)
+#4 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(307): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#5 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\giadung\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\giadung\wp-includes\template-loader.php(13): do_action('template_redire...')
+#8 C:\xampp\htdocs\giadung\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\giadung\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2022-03-19T19:27:42+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): UxBuilder\Transformers\ArrayToString->transform(Array)
+#4 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(307): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#5 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\giadung\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\giadung\wp-includes\template-loader.php(13): do_action('template_redire...')
+#8 C:\xampp\htdocs\giadung\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\giadung\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2022-03-19T19:27:42+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\DoShortcode.php(28): UxBuilder\Transformers\ArrayToString->transform(Array)
+#4 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(307): UxBuilder\Ajax\DoShortcode->do_shortcode('')
+#5 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\giadung\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\giadung\wp-includes\template-loader.php(13): do_action('template_redire...')
+#8 C:\xampp\htdocs\giadung\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\giadung\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2022-03-19T19:28:29+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#8 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#9 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#10 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#11 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#12 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(307): UxBuilder\Ajax\PostSaver->save('')
+#13 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#14 C:\xampp\htdocs\giadung\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#15 C:\xampp\htdocs\giadung\wp-admin\admin-ajax.php(187): do_action('wp_ajax_ux_buil...')
+#16 {main}
+  thrown in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2022-03-19T19:28:32+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#8 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#9 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#10 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#11 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#12 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(307): UxBuilder\Ajax\PostSaver->save('')
+#13 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#14 C:\xampp\htdocs\giadung\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#15 C:\xampp\htdocs\giadung\wp-admin\admin-ajax.php(187): do_action('wp_ajax_ux_buil...')
+#16 {main}
+  thrown in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2022-03-19T19:29:30+00:00 CRITICAL Possible integer overflow in memory allocation (2 * 9099 + 32) in C:\xampp\htdocs\giadung\wp-includes\shortcodes.php on line 228
+
+2022-03-19T19:29:34+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#8 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(307): UxBuilder\Ajax\PostSaver->save('')
+#9 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#10 C:\xampp\htdocs\giadung\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#11 C:\xampp\htdocs\giadung\wp-admin\admin-ajax.php(187): do_action('wp_ajax_ux_buil...')
+#12 {main}
+  thrown in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2022-03-19T19:29:36+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#8 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(307): UxBuilder\Ajax\PostSaver->save('')
+#9 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#10 C:\xampp\htdocs\giadung\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#11 C:\xampp\htdocs\giadung\wp-admin\admin-ajax.php(187): do_action('wp_ajax_ux_buil...')
+#12 {main}
+  thrown in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2022-03-19T19:29:37+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#8 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(307): UxBuilder\Ajax\PostSaver->save('')
+#9 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#10 C:\xampp\htdocs\giadung\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#11 C:\xampp\htdocs\giadung\wp-admin\admin-ajax.php(187): do_action('wp_ajax_ux_buil...')
+#12 {main}
+  thrown in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2022-03-19T19:29:50+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#8 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(307): UxBuilder\Ajax\PostSaver->save('')
+#9 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#10 C:\xampp\htdocs\giadung\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#11 C:\xampp\htdocs\giadung\wp-admin\admin-ajax.php(187): do_action('wp_ajax_ux_buil...')
+#12 {main}
+  thrown in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2022-03-19T19:29:52+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#8 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(307): UxBuilder\Ajax\PostSaver->save('')
+#9 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#10 C:\xampp\htdocs\giadung\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#11 C:\xampp\htdocs\giadung\wp-admin\admin-ajax.php(187): do_action('wp_ajax_ux_buil...')
+#12 {main}
+  thrown in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2022-03-19T19:30:56+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#8 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(307): UxBuilder\Ajax\PostSaver->save('')
+#9 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#10 C:\xampp\htdocs\giadung\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#11 C:\xampp\htdocs\giadung\wp-admin\admin-ajax.php(187): do_action('wp_ajax_ux_buil...')
+#12 {main}
+  thrown in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2022-03-19T19:31:14+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#8 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(307): UxBuilder\Ajax\PostSaver->save('')
+#9 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#10 C:\xampp\htdocs\giadung\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#11 C:\xampp\htdocs\giadung\wp-admin\admin-ajax.php(187): do_action('wp_ajax_ux_buil...')
+#12 {main}
+  thrown in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2022-03-19T19:31:15+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#8 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(307): UxBuilder\Ajax\PostSaver->save('')
+#9 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#10 C:\xampp\htdocs\giadung\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#11 C:\xampp\htdocs\giadung\wp-admin\admin-ajax.php(187): do_action('wp_ajax_ux_buil...')
+#12 {main}
+  thrown in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2022-03-19T19:31:16+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#8 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(307): UxBuilder\Ajax\PostSaver->save('')
+#9 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#10 C:\xampp\htdocs\giadung\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#11 C:\xampp\htdocs\giadung\wp-admin\admin-ajax.php(187): do_action('wp_ajax_ux_buil...')
+#12 {main}
+  thrown in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2022-03-19T19:31:19+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#8 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(307): UxBuilder\Ajax\PostSaver->save('')
+#9 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#10 C:\xampp\htdocs\giadung\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#11 C:\xampp\htdocs\giadung\wp-admin\admin-ajax.php(187): do_action('wp_ajax_ux_buil...')
+#12 {main}
+  thrown in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2022-03-19T19:32:15+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#8 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(307): UxBuilder\Ajax\PostSaver->save('')
+#9 C:\xampp\htdocs\giadung\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#10 C:\xampp\htdocs\giadung\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#11 C:\xampp\htdocs\giadung\wp-admin\admin-ajax.php(187): do_action('wp_ajax_ux_buil...')
+#12 {main}
+  thrown in C:\xampp\htdocs\giadung\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
