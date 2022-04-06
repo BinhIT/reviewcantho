@@ -15,3 +15,4 @@ function get_email(){
 </form>
 <?php 
 }
+?>
