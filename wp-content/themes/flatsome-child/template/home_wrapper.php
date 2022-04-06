@@ -2,16 +2,16 @@
 /*
 Template name: Home Wrapper
 */
-get_header(); ?>
+?>
+<!DOCTYPE html>
+<html lang="en">
+<?php require "header.php" ?>
+<body class="fixed-nav sticky-footer bg-dark" id="page-top">
+  <!-- Navigation-->
+  <div class="content-wrapper">
+  <div class="container-fluid">
 
-<?php do_action( 'flatsome_before_page' ); ?>
-
-<div id="content" role="main">
-
-</div>
-
-<?php do_action( 'flatsome_after_page' ); ?>
-
-<?php get_footer(); ?>
+    </div>
+    </div>
     <!-- /.container-fluid-->
     <!-- /.content-wrapper-->
