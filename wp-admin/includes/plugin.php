@@ -69,7 +69,6 @@
  *     @type string $AuthorName  Plugin author's name.
  * }
  */
-
 function get_plugin_data( $plugin_file, $markup = true, $translate = true ) {
 
 	$default_headers = array(
@@ -2561,4 +2560,3 @@ function deactivated_plugins_notice() {
 		update_site_option( 'wp_force_deactivated_plugins', array() );
 	}
 }
-

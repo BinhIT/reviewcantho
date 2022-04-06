@@ -1,8 +1,0 @@
-2022-03-23T02:33:38+00:00 CRITICAL Uncaught Error: Undefined constant "window" in C:\xampp\htdocs\giadung\wp-content\themes\flatsome-child\template\auto_post.php:28
-Stack trace:
-#0 C:\xampp\htdocs\giadung\wp-includes\template-loader.php(106): include()
-#1 C:\xampp\htdocs\giadung\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\giadung\index.php(17): require('C:\\xampp\\htdocs...')
-#3 {main}
-  thrown in C:\xampp\htdocs\giadung\wp-content\themes\flatsome-child\template\auto_post.php on line 28
-

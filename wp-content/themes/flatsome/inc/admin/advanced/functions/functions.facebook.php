@@ -50,9 +50,7 @@ function flatsome_facebook_accounts_html() {
       <div class="theme instagram-account instagram-account--<?php echo esc_attr( $username ) ?>" style="width: 46%">
         <input type="hidden" value="<?php echo esc_attr( $account['id'] ) ?>" name="facebook_accounts[<?php echo esc_attr( $username ) ?>]">
         <div class="theme-screenshot">
-			<?php if ( ! empty( $account['profile_picture'] ) ) : ?>
-				<img src="<?php echo esc_attr( $account['profile_picture'] ) ?>" alt="<?php echo esc_attr( $username ) ?>">
-			<?php endif ?>
+          <img src="<?php echo esc_attr( $account['profile_picture'] ) ?>" alt="<?php echo esc_attr( $username ) ?>">
         </div>
         <!-- <div class="notice inline notice-alt"><p></p></div> -->
         <div class="theme-id-container">
