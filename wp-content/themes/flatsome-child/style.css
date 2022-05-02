@@ -8,6 +8,9 @@ Version: 3.0
 
 
 /*************** ADD CUSTOM CSS HERE.   ***************/
+#comments{
+	display:none !important;
+}
 @import url('https://fonts.googleapis.com/css2?family=Vujahday+Script&display=swap');
 a {
     text-decoration: none !important;
