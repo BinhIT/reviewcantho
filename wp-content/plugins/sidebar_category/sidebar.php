@@ -24,3 +24,4 @@ function get_cate() {
     <?php } ?>
 <?php
 add_shortcode( 'get_cate', 'get_cate' );
+?>
